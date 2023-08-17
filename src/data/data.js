@@ -14,6 +14,6 @@ export const data=[
         name:"React JS Application",
         image:todoImg,
         github:"https://github.com/gurmugt/wd301/tree/main/smarter-tasks",
-        live:"https://main--super-pika-ffd5f3.netlify.app/",
+        live:"https://gurmu-todo-app.netlify.app/",
     },
 ]
