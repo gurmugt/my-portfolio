@@ -11,16 +11,17 @@ const About = () => {
           </div>
           <div></div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-1 gap-7 px-4'>
+            <div className='text-3xl font-bold'>
               <p>Hi. I'm Gurmu Gessese, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <p>I'm a Front-End 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫, 𝐔𝐗 & 𝐔𝐈 𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐫, and Computer Engineering student.
+                With a strong foundation in both development and design, I bring a unique perspective to creating
+                seamless user experiences. My expertise lies in developing robust and scalable web applications, 
+                utilizing a range of technologies such as<strong> HTML, CSS, Javascript, React Js, Node JS. </strong>
+                I am eager to leverage my skills and contribute to dynamic projects that push the boundaries of 
+                technology and design. let's connect and explore opportunities to collaborate!</p>  
             </div>
           </div>
       </div>
