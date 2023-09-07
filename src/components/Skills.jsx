@@ -1,12 +1,13 @@
 import React from 'react';
-
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
-
+import mongo from '../assets/mongo.png';
+import express from '../assets/express.png';
+import aws from '../assets/aws.png';
 
 const Skills = () => {
   return (
@@ -24,24 +25,36 @@ const Skills = () => {
                   <p className='my-4'>HTML</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={CSS} alt="css icon" />
                   <p className='my-4'>CSS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={JavaScript} alt="js icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={ReactImg} alt="react icon" />
                   <p className='my-4'>REACT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={Node} alt="node icon" />
                   <p className='my-4'>NODE JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={express} alt="node icon" />
+                  <p className='my-4'>Express Js</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={mongo} alt="mongo icon" />
+                  <p className='my-4'>MongoDB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={GitHub} alt="github icon" />
                   <p className='my-4'>GITHUB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={aws} alt="github icon" />
+                  <p className='my-4'>AWS</p>
               </div>
           </div>
       </div>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import gurmu from '../assets/gurmu.png';
 import { FaBars, FaTimes, FaGithub,FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
@@ -92,7 +92,7 @@ const Navbar = () => {
 
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='https://www.linkedin.com/in/gurmu-gessese/' target='_blank'>
+            href='https://www.linkedin.com/in/gurmu-gessese/' target='_blank' rel="noreferrer">
             Linkedin <FaLinkedin size={30}/>
             </a>
         </li>
@@ -100,7 +100,7 @@ const Navbar = () => {
 
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='https://github.com/gurmugt' target='_blank'>
+            href='https://github.com/gurmugt' target='_blank' rel="noreferrer">
             Github <FaGithub size={30}/>
             </a>
         </li>
@@ -116,7 +116,7 @@ const Navbar = () => {
 
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='/'>
+            href='https://drive.google.com/file/d/1YqE9wLaDqNMWlHIXq2wxPs4H5OFD1hcc/view?usp=sharing' target='_blank'>
             Resume <BsFillPersonLinesFill size={30}/>
             </a>
         </li>
