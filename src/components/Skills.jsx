@@ -8,6 +8,10 @@ import GitHub from '../assets/github.png';
 import mongo from '../assets/mongo.png';
 import express from '../assets/express.png';
 import aws from '../assets/aws.png';
+import java from '../assets/java.png';
+import c from '../assets/c.png';
+import cpp from '../assets/c++.png';
+import python from '../assets/python.png';
 
 const Skills = () => {
   return (
@@ -33,6 +37,22 @@ const Skills = () => {
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={java} alt="java icon" />
+                  <p className='my-4'>JAVA</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={c} alt="c icon" />
+                  <p className='my-4'>C</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={cpp} alt="c++ icon" />
+                  <p className='my-4'>C++</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={python} alt="pyhton icon" />
+                  <p className='my-4'>PYTHON</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="react icon" />
                   <p className='my-4'>REACT</p>
               </div>
@@ -47,10 +67,6 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={mongo} alt="mongo icon" />
                   <p className='my-4'>MongoDB</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={GitHub} alt="github icon" />
-                  <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={aws} alt="github icon" />

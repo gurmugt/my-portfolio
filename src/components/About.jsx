@@ -16,7 +16,7 @@ const About = () => {
               <p>Hi. I'm Gurmu Gessese, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I'm a Front-End 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫, 𝐔𝐗 & 𝐔𝐈 𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐫, and Computer Engineering student.
+              <p>I'm a Computer Engineering student, Website 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫, 𝐔𝐗 & 𝐔𝐈 𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐫.
                 With a strong foundation in both development and design, I bring a unique perspective to creating
                 seamless user experiences. My expertise lies in developing robust and scalable web applications, 
                 utilizing a range of technologies such as<strong> HTML, CSS, Javascript, React Js, Node JS. </strong>
